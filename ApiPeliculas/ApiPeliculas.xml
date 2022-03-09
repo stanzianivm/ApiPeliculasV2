@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiPeliculas</name>
+    </assembly>
+    <members>
+        <member name="M:ApiPeliculas.Controllers.CategoriasController.GetCategorias">
+            <summary>
+            Get all categories
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.CategoriasController.GetCategoria(System.Int32)">
+            <summary>
+            Get Categoria by ID
+            </summary>
+            <param name="categoriaId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.CategoriasController.CreateCategoria(ApiPeliculas.Models.CategoriaDTO)">
+            <summary>
+            Create a new Categoria
+            </summary>
+            <param name="categoriaDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.CategoriasController.UpdateCategoria(System.Int32,ApiPeliculas.Models.CategoriaDTO)">
+            <summary>
+            Update a Categoria by ID
+            </summary>
+            <param name="categoriaId"></param>
+            <param name="categoriaDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiPeliculas.Controllers.CategoriasController.DeleteCategoria(System.Int32)">
+            <summary>
+            Delete a Categoria by ID
+            </summary>
+            <param name="categoriaId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
